@@ -4,7 +4,7 @@ import { inter } from "@/fonts/fonts";
 
 export default function Home() {
   return (
-    <section className="flex flex-row 
+    <section className="flex flex-row h-screen 
     lg:justify-between items-center 
     sm:bg-none 
     lg:bg-[url(../assets/textBgSvg.svg)] 
@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className="text-[#636363]">EXPRESSE-SE</h1>
         <h1 className="text-[#FFD911]">TATUE-SE</h1>
       </div>
-      <aside >
+      <aside className="invisible md:visible">
         <Image src={portrait} alt="Imagem Sandro Luz" height={800} />
       </aside>
     </section>

@@ -16,9 +16,9 @@ const Header = () => {
         </Link>
       </div>
       <div className="flex flex-1 gap-8 items-center justify-end flex-wrap">
-        <Link href={'/services'}><span>Serviços</span></Link>
-        <Link href={'/about'}><span>Sobre mim</span></Link>
-        <Link href={'/contact'}><span>Contato</span></Link>
+        <Link href={'/services'}><span className="hover:text-[#FFD911] hover:text-xl  ">Serviços</span></Link>
+        <Link href={'/about'}><span className="hover:text-[#FFD911] hover:text-xl">Sobre mim</span></Link>
+        <Link href={'/contact'}><span className="hover:text-[#FFD911] hover:text-xl">Contato</span></Link>
       </div>
     </nav>
   );

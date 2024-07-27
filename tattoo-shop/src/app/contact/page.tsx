@@ -20,7 +20,7 @@ const Contact = () => {
                 <div className="flex bg-[#636363] p-5 gap-3 md:max-w-[244px]">
                     <MdWhatsapp color="white" size={30} />
                     <div className="flex flex-col ">
-                        <span>Enviar Whatsapp</span>
+                        <a href="https://wa.me/5511997111111" target="_blank">Enviar Whatsapp</a>
 
                         <span className="text-gray-400 text-xs
                     ">(+55 11) 99711-1111)</span>
